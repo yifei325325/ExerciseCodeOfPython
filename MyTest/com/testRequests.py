@@ -7,13 +7,13 @@ Created on 2015年12月10日
 '''
 import requests,time
 
-url = 'http://www.ibabyclouds.com'
+url = 'http://www.ibabycloud.com'
 try:
     r = requests.get(url)
     if r.status_code == 200:
         print "服务器返回'%d',网络连接正常！" %r.status_code
         try:
-            f = open('log.txt','w')
+            f = open('log','w')
             f.writelines(r.text.encode('utf8'))
             f.close()
             print '返回的html源码请看log.txt'
