@@ -7,7 +7,6 @@ Created on 2015年12月18日
 @author: Kenny.Li
 '''
 import urllib2,urllib
-from pip.download import user_agent
 
 user_agent = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.8.1000 Chrome/30.0.1599.101 Safari/537.36"
 values = {"username":"yifei1193@163.com","password":"csdn325325"}
