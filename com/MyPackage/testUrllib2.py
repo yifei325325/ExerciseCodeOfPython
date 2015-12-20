@@ -8,17 +8,14 @@ Created on 2015年12月18日
 '''
 import urllib2,urllib
 
-user_agent = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.8.1000 Chrome/30.0.1599.101 Safari/537.36"
-values = {"username":"yifei1193@163.com","password":"csdn325325"}
-headers1 = {"User-Agent":user_agent}
-data = urllib.urlencode(values)
-url = "http://passport.csdn.net/account/login?from=http://my.csdn.net/my/mycsdn"
-# 
-request = urllib2.Request(url,data,headers1)
-print request.data
-print request.get_method()
-response = urllib2.urlopen(request)
-# 
-f = open("csdn.html",'w')
-f.writelines(response.read())
-f.close()
+url = 'http://blog.csdn.net/liyuanbhu/article/details/50365287'
+req = urllib2.Request(url)
+
+#添加防爬网站必须的请求头
+req.add_header('User-Agent','Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.8.1000 Chrome/30.0.1599.101 Safari/537.36')
+req.add_header("Referer","http://blog.csdn.net/")
+req.add_header("Host","blog.csdn.net")
+req.add_header("GET",url)
+
+html = urllib2.urlopen(req)
+print html.read()

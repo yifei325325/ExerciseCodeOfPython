@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>玩蛇网 - Python教程学习与Python资源分享平台</title>
+    <meta name="keywords" content="Python 2.7,Python教程,Python IDE,Python下载,Python3" />
+    <meta name="description" content="玩蛇网专注于成为喜欢Python语言的爱好者以及各类从事编程工作的朋友们的学习与分享的平台，本站提供Python基础教程、PYTHON培训、Python资源、Python ide等程序下载。" />
+    <meta name="Author" content="Leo">
+    <meta name="Copyright" content="Copyright by www.iplaypython.com">
+    <link rel="stylesheet" href="http://www.iplaypython.com/style/index.css" />
+    <link rel="shortcut icon" href="http://www.iplaypython.com/favicon.ico"/>
+    <meta name="baidu-site-verification" content="M2uKMphFrU" />
+</head>
+
+<body>
+
+    <div class="a tops">
+        <div class="w">
+            <div class="lf">玩蛇网提供最新Python编程技术信息以及Python资源下载！</div>
+            <div class="rt">
+                <!--<a target="_blank" href="#">PYTHON手册</a>-->
+ 
+            </div>
+        </div>
+    </div>
+
+    <div class="w" id="header">
+
+        <h1 id="logo">
+            <a href="http://www.iplaypython.com/" title="玩蛇网：Python学习教程与编程资源分享的平台！">Python学习教程与编程资源分享的平台</a>
+        </h1>
+
+        <div id="so">
+            <form action="http://www.iplaypython.com/search" target="_blank">
+                <input type="text" name="q" id="bdcsMain" size="30" maxlength="100" class="input-txt" title=" 有Python问题, 搜索一下! " value="查找需要的Python信息" onFocus="if (value =='查找需要的Python信息'){value =''}" onBlur="if (value ==''){value='查找需要的Python信息'}" />
+                <input type="submit" value="搜索"  class="input-bottom" />
+           </form>
+        </div>
+
+        <div class="top-ad">
+             <!--<a href="http://bbs.iplaypython.com/" title="玩蛇网Python编程开发专业社区！" target="_blank">
+                <img src="http://www.iplaypython.com/uploads/allimg/150519/1_1652155411.gif" width="468" height="60" />
+             </a>-->
+        </div>
+
+    </div>
+
+    <div class="c pt10"></div>
+
+    <div id="main" class="w">
+        <div class="w" id="m-a"></div>
+        <div class="w">
+            <div id="main-left">
+                <div id="u-d">
+                    <div class="home">
+                        <a href="http://www.iplaypython.com/" title="玩蛇网Python首页">玩蛇网</a>
+                    </div>
+
+                    <ul id="Menu">
+                      
+                        <li><a href="http://www.iplaypython.com/jichu/">Python基础</a></li>
+                        <li><a href="http://www.iplaypython.com/jinjie/">Python进阶</a></li>
+                        <li><a href="http://www.iplaypython.com/gaoji/">Python高级教程</a></li>
+                        <li><a href="http://www.iplaypython.com/module/">Python模块</a></li>
+                        <li><a href="http://www.iplaypython.com/text-file/">文本与文件</a></li>
+                        <li><a href="http://www.iplaypython.com/data/">数据库编程</a></li>
+                        <li><a href="http://www.iplaypython.com/sys/">系统编程</a></li>
+                        <li><a href="http://www.iplaypython.com/web/">Web编程</a></li>
+                        <li><a href="http://www.iplaypython.com/net/">网络应用</a></li>
+                        <li><a href="http://www.iplaypython.com/shuju/">数据分析</a></li>
+                        <li><a href="http://www.iplaypython.com/auto-test/">自动化测试</a></li>
+                        <li><a href="http://www.iplaypython.com/gui/">GUI图形编程</a></li>
+                        <li><a href="http://www.iplaypython.com/code/">Python源码实例</a></li>
+                        <li><a href="http://www.iplaypython.com/wenda/">Python问答</a></li>
+                        <li><a href="http://www.iplaypython.com/jiqiao/">Python技巧</a></li>
+                        <li><a href="http://www.iplaypython.com/editor/">IDE编辑器</a></li>
+                        <li><a href="http://www.iplaypython.com/news/">业界资讯</a></li>
+
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div id="main-index">
+                <div class="a">
+                    <div class="lf-w560">
+
+                        <p class="title">欢迎来到玩蛇网，学习Python !</p>
+                        <p>
+                            欢迎来到玩蛇网! 本站以简单易懂的Python基础教程讲解、实例源码、各种应用编程让您可以轻松愉快的学习Python，快速成为一名合格的的Python程序员。<br />
+                            提示：大家可以通过玩蛇网上的所有免费Python教程来学习Python编程技术 ，如果需要深入系统的学习、较短时间达到理想学习效果可以参加Python培训班学习。
+                        </p>
+
+                        <h2>一、进入玩蛇网Python学习指南：</h2>
+
+                        <p>
+                            1、Python基础学习：进入<a href="http://www.iplaypython.com/jichu/">Python基础入门</a>频道学习Python必备的知识。
+                            <br />2、Python技术提高：可以通过<a href="http://www.iplaypython.com/jinjie/">Python进阶</a>频道得到快速的提升。
+                            <br />3、实用Python技术：参加玩蛇网Python培训班 ，系统全面学习Python编程技术。
+                            <br />4、Python资源：在这里可以找到Python电子书、<a href="http://www.iplaypython.com/editor/" >IDE编辑器</a>、第三方模块等资源下载。
+                            <br />5、网络Web编程：在<a href="http://www.iplaypython.com/web/">Web编程</a>和<a href="http://www.iplaypython.com/net/">网络应用</a></li>找到网站程序设计和网络通信应用编程。
+
+                            <br>6、有任何Python问题：各种Python相关的疑问大家都可以：① <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=f19b1cf6936247f89e10c26725b6c510dcccaade4b75b4d5110ee55d651547ad" rel="nofollow"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="玩蛇网Python新手群" title="玩蛇网Python新手群"></a>
+
+                        </p>
+
+                        <h2>二、学习Python疑问？</h2>
+
+                        <p>
+                            1、<a href="http://www.iplaypython.com/wenda/learn.html" target="_blank" >为什么要学习Python编程语言？哪些人适合学习Python？</a>
+                            <br>
+                            2、<a href="http://www.iplaypython.com/wenda/self.html" target="_blank" >自学也能学会Python，为什么要参加Python培训班？</a>
+                            <br>
+                            3、<a href="http://www.iplaypython.com/wenda/work.html" target="_blank" >学会Python后能找到什么工作，待遇如何？</a>
+                            <br>
+                            4、<a href="http://www.iplaypython.com/wenda/book.html" target="_blank" >学习Python有什么好的书籍推荐？</a>
+                            <br>
+                            5、<a href="http://www.iplaypython.com/wenda/step.html" target="_blank" >Python学习步骤如何安排？</a>
+                            <br>
+                            6、<a href="http://www.iplaypython.com/wenda/long.html" target="_blank" >Python需要多长时间可以学会，达到精通呢？</a>
+                            <br>
+                            7、<a href="http://www.iplaypython.com/wenda/hard.html" target="_blank">学习Python编程语言难吗？</a>
+                            <br>
+                            8、<a href="http://www.iplaypython.com/wenda/python2-python3.html" target="_blank" >该学习Python2还是Python3版本呢？</a>
+                            <br>
+                            9、<a href="http://www.iplaypython.com/wenda/can.html" target="_blank">我没学过编程，能否学会Python？</a>
+                            <br>
+                            10、<a href="http://www.iplaypython.com/wenda/difference.html" target="_blank">Python与Java、C、Ruby等其它编程语言有什么区别？</a>
+                        </p>
+                    </div>
+
+                    <div class="rt-w250">
+
+                        <p>最新更新</p>
+
+                        <ul class="rt-news">
+                           <!-- <li>
+                                <a target="_blank" href="http://www.iplaypython.com/peixun/" title="斯巴达Python培训小班课程">
+                                  <font color="#FF0000"><strong><u>Python培训小班课程 接受预定中！！</u></strong></font></a></font>
+                            </li>-->
+
+                           <li>
+                                <a target="_blank" href="http://www.iplaypython.com/crawler/multithreading-crawler-scanner.html" title="Python多线程爬虫抓取扫描器_黑客工具">
+                                  <font color="#FF0000"><strong><u>Python多线程爬虫抓取扫描器_黑客工具</u></strong></font></a></font>
+                            </li>
+
+                            <li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2680.html" title="Python格式化CSS样式表文件_【代码案例】">Python格式化CSS样式表文件_【代码案例】</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2719.html" title="Python模拟用户自动登陆网易126邮箱源码详解">Python模拟用户自动登陆网易126邮箱源码详解</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2715.html" title="用Python来处理中文分句的方法_【源码精华】">用Python来处理中文分句的方法_【源码精华】</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2694.html" title="Python文件夹复制代码编写及使用方法详解">Python文件夹复制代码编写及使用方法详解</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/news/a2723.html" title="微软2015官方Visual Studio 2.1 RC Python工具下载安装方法">微软2015官方Visual Studio 2.1 RC Python工具下载安装方法</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2718.html" title="Python设置检查点的实现方法_源码">Python设置检查点的实现方法_源码</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2722.html" title="使用Python将数据写入MP3文件的源码详解">使用Python将数据写入MP3文件的源码详解</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2721.html" title="用Python罗马数字转换为阿拉伯数字的方法">用Python罗马数字转换为阿拉伯数字的方法</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/news/a263.html" title="看看Python语言有哪些不被大牛们喜欢的编程方式">看看Python语言有哪些不被大牛们喜欢的编程方式</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/news/a262.html" title="Python3.5版本相对于Python2在语法方面的不同之处">Python3.5版本相对于Python2在语法方面的不同之处</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/wenda/cn-encoding.html" title="Python中文乱码与编码的问题 超高清 视频教程">Python中文乱码与编码的问题 超高清 视频教程</a>
+                            </li>
+ 
+
+                        </ul>
+
+                        <p>本月热门</p>
+
+                        <ul class="rt-top">
+
+
+                            <li>
+                                <a target="_blank" href="http://www.iplaypython.com/jichu/interpreter.html" title="Python交互式解释器 Windows、Linux系统简介下载">Python交互式解释器 Windows、Linux系统简介下载</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/jinjie/jj135.html" title="Python函数与表达式、控制流语句、变量的组合">Python函数与表达式、控制流语句、变量的组合</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/news/a102.html" title="Guido Van Rossum 进入Dropbox这一年">Guido Van Rossum 进入Dropbox这一年</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/module/base64.html" title="Python Base64 编码与解码 ASCII编码二进制数据">Python Base64 编码与解码 ASCII编码二进制数据</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/jinjie/else-elif.html" title="Python else与elif语句语法讲解">Python else与elif语句语法讲解</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/jinjie/jj156.html" title="Python 函数文档字符串 说明docstring">Python 函数文档字符串 说明docstring</a>
+                            </li>
+<li>
+                                <a target="_blank" href="http://www.iplaypython.com/jinjie/jj163.html" title="Python 布尔表达式讲解">Python 布尔表达式讲解</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="a"></div>
+
+                    </div>
+                </div>
+
+                <h2 class="plr10">三、一定要掌握Python基础知识</h2>
+
+                <ul class="wuli">
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/jichu/interpreter.html">交互式解释器</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/idle.html" target="_blank">Python IDLE</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/dir.html" target="_blank">dir()函数</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/jichu/data-type.html">内置类型</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/type.html" target="_blank">type()</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/jichu/str.html">字符串 str</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/jichu/int.html">整型数字 int</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/list.html" target="_blank">列表 list</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/jichu/tuple.html">元组 tuple</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/dict.html" target="_blank">字典 dict</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/set.html" target="_blank">集合 set</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/var.html" target="_blank">变 量</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/print.html" target="_blank">print 语句</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/function.html" target="_blank">函数</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/class.html" target="_blank">类</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/import.html" target="_blank">import导入</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/help.html" target="_blank">help()方法</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/text-file/open.html" target="_blank">文本读写</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/exception.html" target="_blank">错误异常</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/jichu/note.html" target="_blank">注释代码</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/if.html" target="_blank">if语句</a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/for.html" target="_blank">for循环</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/while.html" target="_blank">while循环</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/break.html" target="_blank">break语句</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/else-elif.html" target="_blank">else/elif语句</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/continue.html" target="_blank">continue语句</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/pass.html" target="_blank">pass语句</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/return.html" target="_blank">return语句</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/global.html" target="_blank">global全局</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/jinjie/assert.html" target="_blank">assert断言</a>
+                    </li>
+
+                </ul>
+                <h2 class="plr10">四、进阶必知Python标准库知识</h2>
+                <ul class="wuli">
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/module/os.html">os 模块</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/module/sys.html">sys 模块</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.iplaypython.com/module/re.html">re 正则表达式</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/time.html" target="_blank">time 日期时间</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/pickle.html" target="_blank">pickle 持久化</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/random.html" target="_blank">random 随机</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/csv.html" target="_blank">csv 模块</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/logging.html" target="_blank">logging 日志</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/socket.html" target="_blank">socket网络通信</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/json.html" target="_blank">json模块</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/urlparse.html" target="_blank">urlparse 解析URL</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/urllib.html" target="_blank">urllib 模块</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/urllib2.html" target="_blank">urllib2 模块</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/robotparser.html" target="_blank">robotparser 网络蜘蛛</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/cookie.html" target="_blank">Cookie 模块</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/smtplib.html" target="_blank">smtplib 邮件</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/base64.html" target="_blank">Base64 编码</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/xmlrpclib.html" target="_blank">xmlrpclib客户端</a> 
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/string.html" target="_blank">string 文本</a>
+                    </li>
+                    <li>
+                        <a href="http://www.iplaypython.com/module/queue.html" target="_blank">Queue 线程安全</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/module/math.html" target="_blank">math数学计算</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/module/linecache.html" target="_blank">linecache缓存</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/module/threading.html" target="_blank">threading多线程</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/module/sqlite3.html" target="_blank">sqlite3数据库</a>
+                    </li>
+
+                    <li>
+                        <a href="http://www.iplaypython.com/module/gzip.html" target="_blank">gzip压缩</a>
+                    </li>
+
+                </ul>
+
+                <h2 class="plr10">五、Python实例源码资源下载 - 更多</h2>
+
+                <ul id="index-img">
+                    <li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/code/c2680.html" title="Python格式化CSS样式表文件_【代码"><img src='http://www.iplaypython.com/uploads/allimg/151219/1-1512191J626249-lp.png' border='0' width='256px' height='152px' alt='Python格式化CSS样式表文件_【代码案例】'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2680.html">Python格式化CSS样式表文件_【代码</a>
+                            </p>
+                        </div>
+
+                    </li>
+<li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/code/c2719.html" title="Python模拟用户自动登陆网易126邮箱"><img src='http://www.iplaypython.com/uploads/allimg/151218/1-15121Q31054415-lp.jpg' border='0' width='256px' height='152px' alt='Python模拟用户自动登陆网易126邮箱源码详解'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2719.html">Python模拟用户自动登陆网易126邮箱</a>
+                            </p>
+                        </div>
+
+                    </li>
+<li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/code/c2715.html" title="用Python来处理中文分句的方法_【"><img src='http://www.iplaypython.com/uploads/allimg/151218/1-15121QG5241b-lp.jpg' border='0' width='256px' height='152px' alt='用Python来处理中文分句的方法_【源码精华】'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2715.html">用Python来处理中文分句的方法_【</a>
+                            </p>
+                        </div>
+
+                    </li>
+<li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/code/c2694.html" title="Python文件夹复制代码编写及使用方"><img src='http://www.iplaypython.com/uploads/allimg/151218/1-15121Q54914504-lp.jpg' border='0' width='256px' height='152px' alt='Python文件夹复制代码编写及使用方法详解'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2694.html">Python文件夹复制代码编写及使用方</a>
+                            </p>
+                        </div>
+
+                    </li>
+<li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/news/a2723.html" title="微软2015官方Visual Studio 2.1 RC Pyth"><img src='http://www.iplaypython.com/uploads/allimg/151218/1-15121Q50530Q3-lp.jpg' border='0' width='256px' height='152px' alt='微软2015官方Visual Studio 2.1 RC Python工具下载安装方法'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/news/a2723.html">微软2015官方Visual Studio 2.1 RC Pyth</a>
+                            </p>
+                        </div>
+
+                    </li>
+<li>
+
+                        <div class="bx">
+                            <a target="_blank" href="http://www.iplaypython.com/code/c2718.html" title="Python设置检查点的实现方法_源码"><img src='http://www.iplaypython.com/uploads/allimg/151218/1-15121Q43003138-lp.jpg' border='0' width='256px' height='152px' alt='Python设置检查点的实现方法_源码'></a>
+                            <p>
+                                <a target="_blank" href="http://www.iplaypython.com/code/c2718.html">Python设置检查点的实现方法_源码</a>
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <h2 class="plr10">六、Python编程必备的软件和工具大全</h2>
+
+                <ul class="soft">
+                    <li class="idle">
+                        <a target="_blank" title="Python IDLE编辑器" href="http://www.iplaypython.com/jichu/idle.html">Python IDLE</a>
+                    </li>
+
+                    <li class="ulipad">
+                        <a target="_blank" title="UlipadIDLE编辑器" href="http://www.iplaypython.com/editor/ulipad.html">Ulipad</a>
+                    </li>
+
+                    <li class="eclispe">
+                        <a target="_blank" title="Eclispe + Pydev 编辑器" href="#">Eclispe</a>
+                    </li>
+
+                    <li class="komodo">
+                        <a target="_blank" title="Komodo脚本语言编辑器" href="#">Komodo</a>
+                    </li>
+
+                    <li class="vim">
+                        <a target="_blank" title="Vim编辑器" href="#">Vim</a>
+                    </li>
+
+                    <li class="notepad">
+                        <a target="_blank" title="Notepad++编辑器" href="#">Notepad++</a>
+                    </li>
+
+                    <li class="wingide">
+                        <a target="_blank" title="Wing IDE编辑器" href="http://www.iplaypython.com/editor/wing-ide.html">Wing IDE</a>
+                    </li>
+
+                    <li class="editplus">
+                        <a target="_blank" title="Editplus编辑器" href="#">Editplus</a>
+                    </li>
+                    <li class="ultraedit">
+                        <a target="_blank" title="UltraEdit编辑器" href="#">UltraEdit</a>
+                    </li>
+                    <li class="pycharm">
+                        <a target="_blank" title="pyCharm编辑器" href="#">pyCharm</a>
+                    </li>
+                    <li class="sublime">
+                        <a target="_blank" title="Sublime Text2 Python编程利器！" href="http://www.iplaypython.com/editor/sublime-text2-install.html">Sublime Text2</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="w" id="m-c"></div>
+
+    </div>
+
+    <div class="c pt10"></div>
+
+    <div id="footlink">
+        <a href="#" target="_blank" rel="nofollow">友情链接：</a>
+
+        <a href="http://www.python.org/" target="_blank">Python官网</a>
+        <a href="http://webpy.org/" target="_blank">web.py</a>
+        <a href="http://djangobook.py3k.cn/2.0/" target="_blank">Django Book</a>
+
+        <a href="http://www.91python.com/" target="_blank">91python</a>     
+
+        <a href="http://www.okpython.com/" target="_blank">Python中国</a>
+
+        <a href="http://www.pythonschool.com/" target="_blank">python丝酷网</a>
+
+        <a href="http://www.phplo.com/" target="_blank">开源部落站长网</a>
+
+        <a href="http://www.zhidaow.com/" target="_blank">张亚楠博客</a>
+
+        <a href="http://www.excelcn.com/" target="_blank">Excel教程</a>
+
+
+    </div>
+
+    <div id="footer">
+        <div class="w">
+            <div class="lf">
+                <a target="_blank" href="#">关于我们</a>
+                -
+                <a target="_blank" href="#">联系我们</a>
+                -
+                <a target="_blank" href="#">友情合作</a>
+                -
+                <a target="_blank" href="http://www.iplaypython.com/sitemap.html">网站地图</a>
+                
+                <br/>
+                学习<a href="http://www.iplaypython.com/">PYTHON</a>，找编程资源上玩蛇网!
+            </div>
+
+            <div class="rt">
+                <span class="Copyright">
+                    <span class="Cr">©</span>
+                    IPLAYPYTHON.COM Python学习与资源分享平台
+                </span>
+                <br/>
+                <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">辽ICP备07000037号</a>
+            </div>
+
+        </div>
+    </div>
+    
+<script src="http://www.iplaypython.com/style/jquery-1.7.2.mins.js" type="text/javascript"></script>
+
+
+<!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&img=5&pos=right&uid=0" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+</script>
+<!-- Baidu Button END -->
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6d16e715157e014975eeccef9dedf4a1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46260912-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">(function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=4587018237132708647' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();</script>
+
+</body>
+</html>
