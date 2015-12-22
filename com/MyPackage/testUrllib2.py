@@ -6,7 +6,7 @@ Created on 2015年12月18日
 
 @author: Kenny.Li
 '''
-import urllib2,urllib
+import urllib2
 
 url = 'http://blog.csdn.net/liyuanbhu/article/details/50365287'
 
