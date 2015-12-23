@@ -19,4 +19,4 @@ def jie_mi(s,pwd):
     return r.decrypt(s, pwd)
 
 print jie_mi(base64.decodestring(s), pwd)
-print test
+print 'test'
