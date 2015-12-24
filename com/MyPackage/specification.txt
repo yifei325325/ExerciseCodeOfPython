@@ -1,0 +1,4 @@
+#clock.py
+	用pyQt写的一个透明的小时钟软件
+#jiaMiAndJieMi.py
+	练习RNCrypto 库的使用

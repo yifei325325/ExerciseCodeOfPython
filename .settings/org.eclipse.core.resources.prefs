@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
+encoding//com/MyPackage/TooltipTest.py=utf8
+encoding//com/MyPackage/clock.py=utf-8
 encoding//com/MyPackage/encodeTypeTest.py=utf8
+encoding//com/MyPackage/iconTest.py=utf8
 encoding//com/MyPackage/jiaMiAndJieMi.py=utf8
 encoding//com/MyPackage/login_iBaby.py=utf8
 encoding//com/MyPackage/test.py=utf8
@@ -7,3 +10,4 @@ encoding//com/MyPackage/test2.py=utf8
 encoding//com/MyPackage/testURLLIB.py=utf8
 encoding//com/MyPackage/testUrllib2.py=utf8
 encoding//com/MyPackage/testWin32API.py=utf8
+encoding//com/MyPackage/widget.py=utf8
